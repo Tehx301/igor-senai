@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+ background: rgb(241, 241, 241);
+}
+.rodaPe{
+color:aliceblue;
+background-color: #163F92;
+height: 80px;
+  display: flex;
+  align-items: center;    
+  justify-content: flex-start;
+    padding-left: 120px; 
+}
+.itemRodape {
+  font-size: 30px;
+  font-weight: 690;                
+  margin-right: 25px;    
+}
+.rodaPe2{
+color:rgb(0, 0, 0);
+height: 80px;
+  display: flex;
+  align-items: center;    
+  justify-content: end; 
+}
+
+.itemRodape2 {
+  font-size: 14px;
+  font-weight: 737; 
+                 
+  margin-right: 33px;    
+}
+.senaiLogo{
+  height: 50px;
+  margin-left: -500px;
+  margin-top: 159px;
+  position: relative;
+}
+
+.senaiFundo{
+height: 359px;
+width: 1122px;
+margin-top: 20px;
+}
+
+.titulo{
+color:rgb(0, 0, 0);
+height: 80px;
+font-size: 27px;
+  display: flex;
+  align-items: center;    
+  justify-content: center;
+    font-weight: 690;
+}
+.azul{
+  color:rgb(14, 62, 126);
+}
+
+.preto{
+  color:black;
+  margin-right: 7px;  
+}
+.testinho{
+  color: black;
+ font-weight: 640;
+  font-size: 70%;
+}
+.caixinhass{
+  display: flex;
+ gap: 20px;  
+  justify-content: flex-start; 
+}
+.caixa{
+  width: 300px;         
+  height: 180px; 
+  margin-left: 100px;       
+  background-color: #ffffff;
+ border-radius: 9px;
+ 
+}
+
+.imagen{
+  height: 70px;
+  margin-top: 30px;
+}
+.azul2{
+    font-size: 20px;
+  color:rgb(14, 62, 126);
+}
+
+.preto2{
+  font-size: 20px;
+  color:black;
+}
