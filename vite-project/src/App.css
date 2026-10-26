@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 body{
  background: rgb(241, 241, 241);
@@ -41,6 +42,13 @@ height: 80px;
   position: relative;
 }
 
+.senaiLogoFim{
+  height: 50px;
+  margin-left: -500px;
+  margin-top: 159px;
+  position: relative;
+}
+
 .senaiFundo{
 height: 359px;
 width: 1122px;
@@ -49,13 +57,14 @@ margin-top: 20px;
 
 .titulo{
 color:rgb(0, 0, 0);
-height: 80px;
+height: 50px;
 font-size: 27px;
   display: flex;
   align-items: center;    
   justify-content: center;
     font-weight: 690;
 }
+
 .azul{
   color:rgb(14, 62, 126);
 }
@@ -64,35 +73,132 @@ font-size: 27px;
   color:black;
   margin-right: 7px;  
 }
+
 .testinho{
   color: black;
  font-weight: 640;
   font-size: 70%;
 }
-.caixinhass{
-  display: flex;
- gap: 20px;  
-  justify-content: flex-start; 
+
+.caixinhas{
+   display: flex; 
+    gap: 30px; 
+    justify-content: flex-start; 
+    align-items: flex-start;
+      margin-left: 200px; 
+  margin-top: 20px;  
 }
+
 .caixa{
-  width: 300px;         
-  height: 180px; 
-  margin-left: 100px;       
+ width: 140px;         
+  min-height: 90px;         
+  height: auto;            
+  margin-left: 20px;       
   background-color: #ffffff;
- border-radius: 9px;
- 
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;   
+  align-items: center;      
+  justify-content: center;  
+  text-align: center;       
+  padding: 12px;            
+  box-sizing: border-box;             
 }
 
-.imagen{
-  height: 70px;
-  margin-top: 30px;
+.caixa .imagen{
+  height: 24px;
+  margin-top: 9px;
+   margin-bottom: 1px;  
 }
-.azul2{
-    font-size: 20px;
-  color:rgb(14, 62, 126);
+.caixa .azul2{
+   font-size: clamp(7px, 6cqw, 9px); 
+  color: rgb(14, 62, 126);
+  font-weight: bold;
+  line-height: 1.2; 
+}
+.caixa2 .azul2{
+   font-size: clamp(7px, 6cqw, 9px); 
+  color: rgb(14, 62, 126);
+  font-weight: bold;
+  line-height: 1.2; 
+}
+.caixa .preto2{
+ font-size: clamp(7px, 6cqw, 9px); 
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.2; 
+}
+.caixa2 .preto2{
+ font-size: clamp(7px, 6cqw, 9px); 
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.2; 
+}
+.caixa2 .preto3{
+ font-size: clamp(7px, 6cqw, 9px); 
+  color: rgb(27, 27, 27);
+  line-height: 1.2; 
+}
+.caixa2 .pretoFraco{
+ font-size: clamp(7px, 6cqw, 9px); 
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.0;
+}
+.azul3{
+color: #163F92;
+  color: rgb(14, 62, 126);
+   line-height: 1.2; 
+font-size:20px;
+  line-height: 1.2; 
+}
+.caixasMaior{
+    display: flex; 
+    gap: 30px; 
+    justify-content: flex-start; 
+    align-items: flex-start;
+      margin-left: 200px; 
+  margin-top: 20px;  
+}
+.caixa2{
+ width: 339px;         
+  min-height: 90px;         
+  height: 440px;            
+  margin-left: 14px;      
+  background-color: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;   
+  align-items: center;      
+  justify-content: center;  
+  text-align: center;       
+  padding: 55px;            
+  box-sizing: border-box;             
 }
 
-.preto2{
-  font-size: 20px;
-  color:black;
+.imagen3{
+color:rgb(0, 0, 0);
+height: 230px;
+width: 742px;
+font-size: 27px;
+margin-top: 9px;
+margin-left: 210px;
+  display: flex;
+  align-items: center;    
+  justify-content: center;
+    font-weight:690;
+}
+.rodaPeFIM{
+background-color: #e4e4e4;
+height: 70px;
+  display: flex;
+  align-items: center;    
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+.publi{
+  margin-top: -10px;
+  margin-left: 20px;
+   position: relative;
+  left: -50px;
 }
