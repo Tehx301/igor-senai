@@ -37,16 +37,18 @@ height: 80px;
 }
 .senaiLogo{
   height: 50px;
-  margin-left: -500px;
-  margin-top: 159px;
+   left: -240px;
   position: relative;
 }
 
 .senaiLogoFim{
-  height: 50px;
-  margin-left: -500px;
-  margin-top: 159px;
+  position: absolute; 
+  height: 24px;
+    top: -6px;        
+  left: -790px; 
+  margin-left: 700px;
   position: relative;
+
 }
 
 .senaiFundo{
@@ -167,26 +169,68 @@ font-size:20px;
   margin-left: 14px;      
   background-color: #ffffff;
   border-radius: 15px;
-  display: flex;
+  
   flex-direction: column;   
-  align-items: center;      
-  justify-content: center;  
-  text-align: center;       
+    align-items: start;    
+  justify-content: start; 
+  text-align: start;       
   padding: 55px;            
   box-sizing: border-box;             
 }
+.caixa1, .caixa2 {
+  max-width: 340px;       
+  font-family: Arial, Helvetica, sans-serif;
+}
+.caixa2 .azul3{
+  font-size: 28px;        
+  font-weight: 700;      
+  color: #0b4c8c;         
+  margin-top: -7px;
+}
+.caixa2 .pretoFraco{
+  font-size: 12px;              
+  font-weight: bold;   
+  margin-top: -6px;                
+  margin-bottom: 1px; 
+ 
+}
+.quadradoAzul{
+background-color: #ddebf8;
+border-radius: 5px;
+}
+.caixa2 .pretoFraco1{
+  font-size: 11px;  
+    color: #000000;              
+  font-weight: bold;   
+  margin-top: -20px;                
+  margin-bottom: 1px; 
+}
+.caixa2 .preto3{
+  font-size: 18px;         
+  font-weight: 700;        
+  color: #1e293b;        
+  margin-bottom: 9px; 
+  margin-top: 5px;
+}
 
+.caixa2 imagen2{
+   display: flex;
+   align-items: start;    
+  justify-content: start;
+}
 .imagen3{
 color:rgb(0, 0, 0);
-height: 230px;
-width: 742px;
+height: 235px;
+width: 723px;
 font-size: 27px;
-margin-top: 9px;
+margin-top: -30px;
 margin-left: 210px;
   display: flex;
   align-items: center;    
   justify-content: center;
     font-weight:690;
+    border-radius: 10px;
+     
 }
 .rodaPeFIM{
 background-color: #e4e4e4;
@@ -194,11 +238,48 @@ height: 70px;
   display: flex;
   align-items: center;    
   justify-content: flex-end;
-  margin-top: 20px;
+  margin-top: 12px;
 }
 .publi{
   margin-top: -10px;
   margin-left: 20px;
    position: relative;
   left: -50px;
+}
+.fim{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.fim h2,.fim p,.fim button{
+  position: relative;
+  z-index: 2;
+  left: 8%;
+  margin-left: 150px;
+}
+.fim h2 {
+   color: #0b4c8c;
+  margin-top: 80px; 
+  max-width: 400px;
+  margin-bottom: 12px;
+   font-weight: 700;
+}
+
+.fim p {
+  color: #4a4a4a;
+  max-width: 400px;
+  margin-bottom: 20px;
+  font-weight: 900;
+    text-align: left;
+}
+
+.fim button {
+  background-color: #0b4c8c;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: -200px; 
 }

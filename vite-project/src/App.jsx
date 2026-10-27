@@ -24,11 +24,11 @@ function App() {
         <p className='itemRodape'>SESI</p>
         <p className='itemRodape'>SENAI</p>
         <p className='itemRodape'> IEL</p>
-
-        <img src={senai} className='senaiLogo' />
       </div>
 
+
       <div className='rodaPe2'>
+        <img src={senai} className='senaiLogo' />
         <p className='itemRodape2'>institucional</p>
         <p className='itemRodape2'>Para você</p>
         <p className='itemRodape2'>Para empresas</p>
@@ -73,45 +73,49 @@ function App() {
           <img className='imagen2' src={Você} />
 
           <h1 className='azul3'>Para você</h1>
-          <p className='pretoFraco'>Cursos profissionalizantes, graduações e especializações desenhadas para acelerar sua carreira na indústria.</p>
-
-          <h2 className='preto3'>Educação Profissional</h2>
-          <p className='pretoFraco'>Formação para quem deseja construir carreira na indústria.</p>
+          <p className='pretoFraco1'>Cursos profissionalizantes, graduações e especializações desenhadas para acelerar sua carreira na indústria.</p>
+          <div className='quadradoAzul'>
+            <h2 className='preto3'>Educação Profissional</h2>
+            <p className='pretoFraco'>Formação para quem deseja construir carreira na indústria.</p>
+          </div>
           <br></br>
-
-          <h2 className='preto3'>Ensino Superior</h2>
-          <p className='pretoFraco'>Formação superior voltada para qualificar profissionais na indústria.</p>
-
+          <div className='quadradoAzul'>
+            <h2 className='preto3'>Ensino Superior</h2>
+            <p className='pretoFraco'>Formação superior voltada para qualificar profissionais na indústria.</p>
+          </div>
         </div>
         <div className='caixa2'>
           <img className='imagen2' src={empresas} />
           <h1 className='azul3'>Para empresas</h1>
 
-          <p className='pretoFraco' >Capacitações personalizadas e outras soluções inovadoras para impulsionar a competitividade do seu negócio.</p>
-
-          <h2 className='preto3' >Educação Corporativa</h2>
-          <p className='pretoFraco' >Capacitações customizadas para melhorar a produtividade da sua empresa.</p>
-
+          <p className='pretoFraco1' >Capacitações personalizadas e outras soluções inovadoras para impulsionar a competitividade do seu negócio.</p>
+          <div className='quadradoAzul'>
+            <h2 className='preto3' >Educação Corporativa</h2>
+            <p className='pretoFraco' >Capacitações customizadas para melhorar a produtividade da sua empresa.</p>
+          </div>
           <br></br>
-
-          <h2 className='preto3' >Inovação e Tecnologia</h2>
-
-          <p className='pretoFraco' >PD&I, consultorias e metrologia para uma indústria mais competitiva.</p>
+          <div className='quadradoAzul'>
+            <h2 className='preto3' >Inovação e Tecnologia</h2>
+            <p className='pretoFraco' >PD&I, consultorias e metrologia para uma indústria mais competitiva.</p>
+          </div>
         </div>
       </div>
-      <div className='fim'>
-        <img src={fim} className='imagen3' />
+      <div className='fim-conteudo'>
+        <div className='fim'>
+          <h2>Seu próximo curso a um clique</h2>
+          <p>Conheça o portal com as ofertas de cursos da Educação Profissional e Ensino Superior do SENAI.</p>
+          <button>Garanta sua vaga</button>
+          <img src={fim} className='imagen3' />
+        </div>
       </div>
       <div className='rodaPeFIM'>
+        <img src={senai} className='senaiLogoFim' />
         <img className='publi' src={insta} />
         <img className='publi' src={lin} />
         <img className='publi' src={face} />
         <img className='publi' src={youtub} />
       </div>
-      <div>
-       <img src={senai} className='senaiLogoFim' />
-      </div>
-    </div>
+    </div >
   )
 }
 
